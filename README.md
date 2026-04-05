@@ -26,11 +26,11 @@ Data quality issues identified and corrections made based on sales representativ
 ## Analysis
 I created pages for YTD Sales, Sales vs Budget and Profitability views by Product, Sales Representative and Region.
 During the analysis, I noticed that two products: Device D and Gadget C have lower profitability than other products:
-![Pilt1](pilt1.jpg)
+![Pilt1](../pilt1.jpg)
 
 I created pages for YTD Sales, Sales vs Budget and Profitability views by Product, Sales Representative and Region.
 During the analysis, I noticed that two products: Device D and Gadget C have lower profitability than other products:
-![Pilt2](pilt2.jpg)
+![Pilt2](../pilt2.jpg)
 
 ## Recommendations
 Based on the analysis, it is recommended to look over the pricing model as products that have an higher cost of producing are being sold at the same price as products with a lower cost of producing.
