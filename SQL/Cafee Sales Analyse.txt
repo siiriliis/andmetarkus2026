@@ -1,0 +1,14 @@
+-- Analyse cafe sales
+-- 1.1 How many and in which sum products have been sold?
+SELECT item_cleaned as Item, 
+    SUM(Quantity) as SUM_Quantity, 
+    SUM(total_spent_calc) as Sum_total_spent
+FROM sales_table_cleaned
+GROUP BY Item
+Order by sum_total_spent DESC;
+
+-- 1.2 What is total spent by location?
+
+SELECT DISTINCT location_cleaned, sum (total_spent_calc) as Sum_Spent
+FROM sales_table_cleaned
+GROUP by location_cleaned;
